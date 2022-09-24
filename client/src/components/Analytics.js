@@ -102,6 +102,7 @@ function Analytics({ transactions }) {
             </div>
         </div>
     )
+    
 }
 
 export default Analytics;
