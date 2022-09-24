@@ -28,7 +28,7 @@ function DefaultLayout(props) {
 
             <div className="header d-flex justify-content-between align-items-center">
                 <div>
-                    <h1 className='logo'>Expense Tracker</h1>
+                    <h1 className='logo'>Financivisor</h1>
                 </div>
                 <div>
                     <Dropdown overlay={menu} placement="bottomLeft">
