@@ -4,7 +4,6 @@ import Spinner from '../components/Spinner';
 import axios from 'axios';
 
 function AddEditTransaction({ setShowAddEditTransactionModel, showAddEditTransactionModel, getTransactions, selectedItemForEdit, setSelectedItemForEdit }) {
-
     const [loading, setLoading] = useState(false);
     const onFinish = async (values) => {
         try {
