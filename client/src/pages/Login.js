@@ -37,7 +37,7 @@ function Login() {
 
                 <div className='col-md-4'>
                     <Form layout='vertical' onFinish={onFinish}>
-                        <h1>Expense Tracker / Login</h1>
+                        <h1>Financivisor / Login</h1>
                         <Form.Item label="Email" name="email">
                             <Input />
                         </Form.Item>
