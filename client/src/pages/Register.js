@@ -42,7 +42,7 @@ function Register() {
                 </div>
                 <div className='col-md-5'>
                     <Form layout='vertical' onFinish={onFinish}>
-                        <h1>Expense Tracker / Register</h1>
+                        <h1>Financivisor / Register</h1>
                         <Form.Item label="Name" name="name">
                             <Input />
                         </Form.Item>
