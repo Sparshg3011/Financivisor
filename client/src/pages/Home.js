@@ -11,6 +11,7 @@ import Analytics from '../components/Analytics';
 const { RangePicker } = DatePicker;
 
 function Home() {
+    
     const [showAddEditTransactionModel, setShowAddEditTransactionModel] = useState(false);
     const [selectedItemForEdit, setSelectedItemForEdit] = useState(null);
     const [loading, setLoading] = useState(false);
