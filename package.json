@@ -1,0 +1,16 @@
+{
+  "name": "money",
+  "version": "1.0.0",
+  "description": "expense-tracker-project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sparsh Gupta/Anurag Kumar Thakur",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "moment": "^2.29.4",
+    "mongoose": "^6.6.1"
+  }
+}

@@ -1,0 +1,63 @@
+.filter {
+    box-shadow: 0 0 2px gray;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+.transaction-form label {
+    color: rgba(0, 0, 0, 0.77) !important;
+}
+
+.transaction-form input {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+
+.transaction-form input:focus {
+    border: 1px solid gray;
+    border-bottom: 1px solid gray !important;
+    box-shadow: none !important;
+}
+.ant-select-selector
+{
+    border: 1px solid gray !important;
+}
+.ant-select-selector:focus
+{
+    box-shadow: none !important;
+    outline: none !important;
+}
+.view-switch
+{
+    border: 1px solid rgba(0, 0, 0, 0.70) !important;
+    border-radius: 3px;
+    padding: 5px 10px;
+
+}
+.anticon svg
+{
+    font-size: 20px;
+}
+.active-icon
+{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.inactive-icon
+{
+    color: rgb(165, 159, 159);
+    cursor: pointer;
+}
+
+.ant-picker-range
+{
+    border: 1px solid black !important;
+}
+
+@media screen and (max-width:6oopx){
+    .filter{
+        overflow-x: scroll;
+    }
+}
+

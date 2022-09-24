@@ -1,0 +1,34 @@
+.register {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+}
+.lottie {
+    height: 400px;
+}
+
+.register input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.748);
+    color: rgba(255, 255, 255, 0.568);
+}
+
+input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.748) !important;
+}
+
+label,
+a {
+    color: rgba(255, 255, 255, 0.536) !important;
+}
+
+.register h1{
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
