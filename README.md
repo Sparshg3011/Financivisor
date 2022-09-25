@@ -1,5 +1,4 @@
 # Financivisor
-Financialvisor keeps a statistical record of your expenses by monitoring, categorizing, and tracking them.
 
 ## What Financivisor can do for you 
 
